@@ -1,0 +1,285 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/favicon.ico">
+
+    <title>CBAL</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!-- FontAwesome Icons -->
+    <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css">
+</head>
+
+<body>
+
+
+    <!-- NAVIGATION -->
+
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm-8">
+
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+
+                            <span class="sr-only">Toggle  navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div>
+                    <!-- navbar-header -->
+
+
+                    <nav class="collapse navbar-collapse navigation" id="navbar-collapse">
+
+                        <ul class="nav navbar-nav">
+
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="extension.html">Extension</a></li>
+                            <li><a href="guide.html">Documentation</a></li>
+                            
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact Me</a></li>
+
+                        </ul>
+                        <!-- .navbar-nav -->
+
+                    </nav>
+                    <!-- #navbar-collapse -->
+
+                </div>
+                <!-- .col-sm-8 -->
+
+
+                <div class="col-sm-4 navigation" id="social-icons">
+
+                    <ul>
+
+                        <a href="https://www.facebook.com/gunxx8809"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/gunxx_x"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/himalyan_vagabond/"><i class="fa fa-instagram"></i></a>
+                        
+                        <a href=""><i class="fa fa-heart"></i></a>
+                        <a href="https://plus.google.com/u/0/113467040330775720674"><i class="fa fa-google-plus"></i></a>
+                        
+
+                    </ul>
+
+                </div>
+                <!-- social-icons -->
+
+            </div>
+            <!-- row -->
+
+        </div>
+        <!-- .container -->
+
+    </nav>
+    <!-- .navbar -->
+
+
+
+
+    <!-- HEADER -->
+
+    <header id="header">
+
+        <div class="container">
+
+            <div id="logo">
+
+                <h1><a href="index.html"><img src="assets/img/logo.jpg" alt="CBAL"></a></h1>
+
+            </div>
+            <!-- #logo -->
+
+        </div>
+        <!-- .container -->
+
+    </header>
+    <!-- #header -->
+    <!-- .archive-box -->
+
+
+    <div class="container">
+
+        <div id="main">
+
+            <article class="post">
+
+                <header class="post-header">
+
+                    
+
+                    <h2><a href="">Documentation For Website Owners</a></h2>
+                    <h2><a href="">On How To Use The Extension</a></h2>
+                    <span class="date">March 26,2018</span>
+
+                </header>
+                <!-- .post-header -->
+
+                <div class="post-image">
+
+               <!--     <a href="post.html"><img src="assets/img/flower.jpg" alt="Flower"></a> -->
+
+                </div>
+                <!-- .post-image -->
+
+                <div class="post-excerpt">
+<h3>Noobs friendly guide in just two simple steps:</h3>
+<ol>
+   <li><p style="font-size:19px">Register to our website. You must be registered on our website. Otherwise the extension won't work for you.</p></li>
+   <li><p style="font-size:19px">Embedding our script:</p>
+    <ol>
+    <li><p style="font-size:19px">Change the &ltdiv&gt class of all the ads &ltdiv&gt to "ad".</p></li>
+    <p style="font-size:19px">Example:</p>
+    <pre><code class="language-css">
+        &ltdiv class="ad"&gt
+            //Your ads script here
+        &lt/div&gt</code></pre>
+
+
+    <li><p style="font-size:19px">Embed our script at the end of your html page code.</p></li>
+    <p style="font-size:19px">Example:</p>
+    <pre><code class="language-css">
+        &lthtml&gt
+            //Your page content
+        &lt/html&gt
+        &ltscript&gt
+            var extensionId = "pjcnapdmhdpdggolhkpdgcihcbimkjin";
+            chrome.runtime.sendMessage(extensionId, { greeting: "hello" }, function(response) {
+                if (response.toggle == `"1"`) {
+                    for (var i = 0; i < document.getElementsByClassName("ad").length; i++) {
+                        document.getElementsByClassName("ad")[i].innerHTML = "";
+                    }
+                }
+            });
+        &lt/script&gt</code></pre>
+     <h4>or</h4>
+     <h5>Simply give the reference to <a href="https://drive.google.com/file/d/1VNqNs7lICnoKm5BWtric6IXdhhQk2K7x/view?usp=sharing" >this script</a>. Download and store it in the same folder as the html page Example:</h5>
+     <pre><code class="language-css">
+        &lthtml&gt
+            // Page content 
+        &lt/html&gt
+        &ltscript src="cbal.js"&gt&lt/script&gt
+         </code></pre>
+
+</ol>
+</li>
+</ol>
+<h2>You are done.!! Congrats!! Welcome to the community!! </h2>
+                </div>
+           
+                <div class="share-post">
+
+                    <a href=""><span class="share-box"><i class="fa fa-facebook"></i></span></a>
+                    <a href=""><span class="share-box"><i class="fa fa-twitter"></i></span></a>
+                    <a href=""><span class="share-box"><i class="fa fa-google-plus"></i></span></a>
+                    
+                </div>
+                <!-- .share-post -->
+
+            </article>
+          
+
+
+
+            <div class="pagination">
+
+                <div class="older"></div>
+                <div class="newer"></div>
+
+            </div>
+            <!-- .pagination -->
+
+
+        </div>
+        <!-- #main -->
+
+    </div>
+    <!-- .container -->
+
+
+
+    <div id="footer-social">
+
+        <div class="container">
+
+            <a href="" target="_blank"><i class="fa fa-facebook"></i> <span>Facebook</span></a>
+            <a href="" target="_blank"><i class="fa fa-twitter"></i> <span>Twitter</span></a>
+            <a href="" target="_blank"><i class="fa fa-instagram"></i> <span>Instagram</span></a>
+           
+            <a href="" target="_blank"><i class="fa fa-google-plus"></i> <span>Google Plus</span></a>
+           
+
+        </div>
+        <!-- .container -->
+
+    </div>
+    <!-- #footer-social -->
+
+    <div id="footer-logo">
+
+        <div class="container">
+
+            <img src="assets/img/footerlogo.jpg" alt="CBAL">
+            <p><i class="fa fa-heart"></i>From Chandigarh University</p>
+
+        </div>
+        <!-- .container -->
+
+    </div>
+    <!-- #footer-logo -->
+
+    <footer id="footer-copyright">
+
+        <div class="container">
+
+            <p>© 2018 Prince Siwal. All Rights Reserved.</p>
+            <a href="#" class="to-top">Back to top <i class="fa fa-angle-double-up"></i></a>
+
+        </div>
+        <!-- .container -->
+
+    </footer>
+    <!-- #footer-copyright -->
+
+
+
+
+
+
+    <!--  JAVASCRIPT
+            Placing at the end of the document so the pages load faster -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/owl.carousel.js"></script>
+
+    <script src="assets/js/main.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+
+</body>
+
+</html>
