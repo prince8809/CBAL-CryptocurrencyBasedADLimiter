@@ -1,0 +1,197 @@
+body {
+    height: 500px;
+    width: 320px;
+}
+
+#image {
+    margin-left: 170px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-family: cursive;
+    text-shadow: 2px 2px #212123;
+}
+
+#minerdetails {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: cursive;
+    text-shadow: 1px 1px #212123;
+}
+
+#onoff {
+    font-size: 18px;
+    font-weight: bold;
+    color: #212123;
+    font-family: cursive;
+    text-shadow: 1px 1px white;
+}
+
+#hrate {
+    font-size: 25px;
+}
+
+
+/*Toggle button styling */
+
+@import url(https://fonts.googleapis.com/css?family=Francois+One);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@font-face {
+    src: local('Audiowide'), local('Audiowide-Regular'), url(http://themes.googleusercontent.com/static/fonts/audiowide/v2/8XtYtNKEyyZh481XVWfVOj8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+body {
+    background-color: #fff;
+    margin: 0px;
+    border: 0px solid #333;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/*Some defaults across all toggle demos*/
+
+.toggle {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    user-select: none;
+}
+
+.toggle--checkbox {
+    display: none;
+}
+
+.toggle--btn {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.4em;
+    transition: all 350ms ease-in;
+}
+
+.toggle--btn:hover {
+    cursor: pointer;
+}
+
+.toggle--btn,
+.toggle--checkbox,
+.toggle--feature,
+.toggle--btn:before,
+.toggle--checkbox:before,
+.toggle--feature:before,
+.toggle--btn:after,
+.toggle--checkbox:after,
+.toggle--feature:after {
+    transition: all 250ms ease-in;
+}
+
+.toggle--btn:before,
+.toggle--checkbox:before,
+.toggle--feature:before,
+.toggle--btn:after,
+.toggle--checkbox:after,
+.toggle--feature:after {
+    content: '';
+    display: block;
+}
+
+
+/* Day/Night and Gender toggle buttons */
+
+.toggle--daynight .toggle--btn,
+.toggle--like .toggle--btn {
+    position: relative;
+    height: 70px;
+    width: 125px;
+    border-radius: 70px;
+}
+
+.toggle--daynight .toggle--btn:before,
+.toggle--like .toggle--btn:before {
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+
+/* Like specific styling    */
+
+.toggle--like {
+    position: relative;
+}
+
+.toggle--like .toggle--btn {
+    border: 5px solid #0865b0;
+    background-color: #3498db;
+}
+
+.toggle--like .toggle--btn:before {
+    background-color: #f2dd68;
+    border: 5px solid #e5ce5e;
+}
+
+.toggle--like .toggle--feature {
+    position: absolute;
+    left: 14px;
+    top: 32%;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #995710;
+    box-shadow: 28px 0 0 0 #995710;
+}
+
+.toggle--like .toggle--feature:before {
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 36px;
+    height: 17px;
+    background-color: #995710;
+    border-radius: 36px 36px 0 0;
+}
+
+.toggle--like .toggle--feature:after {
+    position: absolute;
+    left: 9px;
+    top: 21px;
+    width: 17px;
+    height: 7px;
+    background-color: #d8aa2b;
+    border-radius: 17px 17px 0 0;
+}
+
+.toggle--like .toggle--checkbox:checked+.toggle--btn {
+    background-color: #e25d5d;
+    border: 5px solid #ad1000;
+}
+
+.toggle--like .toggle--checkbox:checked+.toggle--btn:before {
+    transform: translate(51px, 0);
+}
+
+.toggle--like .toggle--checkbox:checked+.toggle--btn .toggle--feature {
+    transform: translate(53px, 0);
+}
+
+.toggle--like .toggle--checkbox:checked+.toggle--btn .toggle--feature:before {
+    border-radius: 0 0 36px 36px;
+    top: 11px;
+}
+
+.toggle--like .toggle--checkbox:checked+.toggle--btn .toggle--feature:after {
+    top: 21px;
+    border-radius: 50%/50%;
+}

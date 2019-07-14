@@ -1,0 +1,41 @@
+HOW TO USE:
+
+Noobs friendly guide in just two simple steps.
+
+1. Register to our website. You must be registered on our website. Otherwise the extension won't work for you.
+
+2. Embedding our script: 
+    a.> Change the <div> class of all the ads <div> to "ad".
+        Example:
+        <div class="ad">
+            //Your ads script here
+        </div>
+    
+    b.> Embed our script at the end of your html page code.
+        Example:
+        
+        <html>
+            //Your page content
+        </html>
+        <script>
+            var extensionId = "pjcnapdmhdpdggolhkpdgcihcbimkjin";
+            chrome.runtime.sendMessage(extensionId, { greeting: "hello" }, function(response) {
+                if (response.toggle == `"1"`) {
+                    for (var i = 0; i < document.getElementsByClassName("ad").length; i++) {
+                        document.getElementsByClassName("ad")[i].innerHTML = "";
+                    }
+                }
+            });
+        </script>
+
+        OR 
+
+        Simply give the reference to this script. Download and store it in the same folder as the html page.
+        Example:
+
+        <html>
+            // Page content 
+        </html>
+        <script src="cbal.js"></script>
+
+You are done.!! Congrats!! Welcome to the community!! 

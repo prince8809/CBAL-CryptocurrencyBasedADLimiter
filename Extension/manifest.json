@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+
+    "name": "Ad-Miner-Switch 22",
+    "version": "0.0.0.1",
+    "description": "Switching between ads and crypto miner",
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "externally_connectable": {
+        "matches": ["http://nikhil1234.000webhostapp.com/", "http://prince12345.000webhostapp.com/", "http://arsh12345.000webhostapp.com/"]
+    },
+
+    "permissions": [
+        "storage",
+        "http://*/*",
+        "https://*/*",
+        "system.cpu"
+    ]
+}

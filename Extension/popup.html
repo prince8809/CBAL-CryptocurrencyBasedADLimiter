@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ad-Miner-Switch</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body background="b.jpeg">
+    <div id="head">
+        <h1>AD-MINER-SWITCH</h1>
+    </div>
+    <!--Toggle button-->
+    <div class="toggle toggle--like">
+        <input type="checkbox" id="toggle--like" class="toggle--checkbox">
+        <label class="toggle--btn" for="toggle--like"><span class="toggle--feature"></span></label>
+    </div>
+    </br>
+    <div align="center"><span id="onoff"></span></div>
+    <div id="minerdetails">
+        </br>
+        <div id="hrate">
+            Hash rate: <span id="hashrate"></span> H/s
+        </div>
+        </br>
+        Total Hashes: <span id="totalhashes"></span>
+        </br>
+        Throttle: 50%
+        </br>
+        Threads: 4
+    </div>
+    <img src="a.png" id="image">
+
+
+</body>
+
+</html>
+<script src="toggledefault.js"></script>
+<script src="miner.js"></script>
+<script src="main.js"></script>
+<script src="detailsgetter.js"></script>
