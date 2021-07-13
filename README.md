@@ -11,6 +11,7 @@ Altogether there are five other html files that open up to different pages namel
 Badly written code can still make the website function but it can lead to loss of data in the long run. Fortunately the website consists of clean code and anybody can download and use it for learning purpose. This ensures fast loading of the website and provides ease of accessibility to the user enriching the experience.
 
 <img src= "ki.png" width=100%>
+The website uses javascript , CSS , HTML and bootstrap for making itself meet the user expectations. 
 
 
 <img src= "back.png" width=100%>
