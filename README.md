@@ -8,13 +8,10 @@ The logo of CBAL is a rock being broken with a hammer to gemerate money which is
 <img src= "stone.png" width=100%>
 Altogether there are five other html files that open up to different pages namely - "index.html" , "extension.html" , "guide.html" ,"about.html" and "contact.html" and these files are linked to the navigation bar. It was built using the hypertext reference tag of html which is the attribute of the anchor tag.This website has some cool features built especially for lazy people. the bottom of the page consist of a botton which the user can click and reach the top of the website again. Although this website is less complicated so scrolling is not required but a lazy person who doesn't like to scroll can always make use of this button. Have a look at this feature that might get removed as it is not useful just like the appendix that we all learnt in our primary school - if you remember - appendix ! 
 <img src="backtothetop.png" width=100%>
-Badly written code can still make the website function but it can lead to loss of data in the long run. Fortunately the website consists of clean code and anybody can download and use it for learning purpose. This ensures fast loading of the website and provides ease of accessibility to the user enriching the experience.
+Badly written code can still make the website function but it can lead to loss of data in the long run. Fortunately the website consists of clean code and anybody can download and use it for learning purpose. This ensures fast loading of the website and provides ease of accessibility to the user enriching the experience.The website uses javascript , CSS , HTML and bootstrap for making itself meet the user expectations.
 
 <img src= "ki.png" width=100%>
-The website uses javascript , CSS , HTML and bootstrap for making itself meet the user expectations. 
 
-
-<img src= "back.png" width=100%>
 
 
 
