@@ -1,7 +1,7 @@
 # CBAL-CryptocurrencyBasedADLimiter
 AD limiter extension ,and corresponding website and demo videos 
 you can see the hosted priview at http://cbal.000webhostapp.com/
-It is a responsive website that adjusts itself to a small , medium and large screen size accordingly. 
+This website provides the best user experience with attractive user interface and with relative web content.  
 
 <img src= "why.png" width=100%>
 
