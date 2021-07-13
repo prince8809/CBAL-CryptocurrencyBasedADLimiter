@@ -5,6 +5,7 @@ This website provides the best user experience with attractive user interface an
 The follwing page appears when the user clicks on extension option fromt the navigation bar - 
 <img src= "why.png" width=100%>
 The logo of CBAL is a rock being broken with a hammer to gemerate money which is very similar to what this project is trying to do. It gives profit to the user who is surfing the website and the owner who is in need of more traffic. It simply uses the free CPU space of the user to generate traffic for the owner. The user in turn gets rid of all the advertisements. Also if you notice there is an amazing copyright at the bottom of each page which looks something like this -
+<img src= "stone.png" width=100%>
 
 <img src= "ki.png" width=100%>
 
