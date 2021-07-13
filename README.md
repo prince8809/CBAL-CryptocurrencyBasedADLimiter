@@ -6,6 +6,8 @@ The follwing page appears when the user clicks on extension option fromt the nav
 <img src= "why.png" width=100%>
 The logo of CBAL is a rock being broken with a hammer to gemerate money which is very similar to what this project is trying to do. It gives profit to the user who is surfing the website and the owner who is in need of more traffic. It simply uses the free CPU space of the user to generate traffic for the owner. The user in turn gets rid of all the advertisements. Also if you notice there is an amazing copyright at the bottom of each page which looks something like this -
 <img src= "stone.png" width=100%>
+Altogether there are five other html files that open up to different pages namely - "index.html" , "extension.html" , "guide.html" ,"about.html" and "contact.html" and these files are linked to the navigation bar. It was built using the hypertext reference tag of html which is the attribute of the anchor tag.This website has some cool features built especially for lazy people. the bottom of the page consist of a botton which the user can click and reach the top of the website again. Although this website is less complicated so scrolling is not required but a lazy person who doesn't like to scroll can always make use of this button. Have a look at this feature that might get removed as it is not useful just like the appendix that we all learnt in our primary school - if you remember - appendix ! 
+<img src="backtothetop.png" width=100%>
 
 <img src= "ki.png" width=100%>
 
@@ -13,11 +15,4 @@ The logo of CBAL is a rock being broken with a hammer to gemerate money which is
 <img src= "back.png" width=100%>
 
 
-<img src= "imagee (3).png" width=100%>
 
-
-
-<img src= "imagee (1).png" width=100%>
-
-
-<img src= "imagee (2).png" width=100%>
